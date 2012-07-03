@@ -1,0 +1,73 @@
+﻿@model Code2012Survey.Models.SurveyReply
+@using Code2012Survey
+@using Code2012Survey.Models
+@using Code2012Survey.Properties
+@{
+    ViewBag.Title = "Confirm";
+}
+
+<p>@Resources.ConfirmPrompt</p>
+
+@using(Html.BeginForm()){
+    @Html.HiddenFor(m => m.Choice1OfQ1)
+    @Html.HiddenFor(m => m.Choice2OfQ1)
+    @Html.HiddenFor(m => m.Choice3OfQ1)
+    @Html.HiddenFor(m => m.Choice4OfQ1)
+    @Html.HiddenFor(m => m.Choice5OfQ1)
+    @Html.HiddenFor(m => m.Choice6OfQ1)
+    @Html.HiddenFor(m => m.CodingForYears)
+    @Html.HiddenFor(m => m.Address)
+    @Html.HiddenFor(m => m.Comment)
+
+    <h2>Q1.</h2>
+
+    <div>@Html.DisplayFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
+    <div>@Html.DisplayFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
+    <div>@Html.DisplayFor(m => m.Choice3OfQ1) @Html.LabelFor(m => m.Choice3OfQ1)</div>
+    <div>@Html.DisplayFor(m => m.Choice4OfQ1) @Html.LabelFor(m => m.Choice4OfQ1)</div>
+    <div>@Html.DisplayFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
+    <div>@Html.DisplayFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
+
+    <h2>Q2.</h2>
+
+    <div>@Html.DisplayFor(m => m.CodingForYears) @Resources.UnitOfYears</div>
+
+    <h2>Q3.</h2>
+    <div>@Html.DisplayFor(m => m.Address)</div>
+    
+    <h2>Q4.</h2>
+    <div>@Html.DisplayFor(m => m.Comment)</div>
+
+    <div>
+        @Resources.Notice
+    </div>
+    
+    <div>
+        <input type="checkbox" name="cb-accept" id="cb-accept" value="On" /><label for="cb-accept">@Resources.AcceptNotice</label>
+    </div>
+    
+    <div>
+        <input type="submit" name="goback" id="btn-goback" value="戻る" class="btn btn-large"/>
+        <input type="submit" name="gonext" id="btn-gonext" value="回答を登録" class="btn btn-disabled btn-large" disabled="disabled"/>
+    </div>
+}
+
+
+
+<script type="text/javascript">
+    $('#btn-goback').click(function () {
+        $(this).closest('form').attr('action', '@Url.Action("Index")');
+    });
+    $('#btn-gonext').click(function () {
+        $(this).closest('form').attr('action', '@Url.Action("Commit")');
+    });
+    $('#cb-accept').click(function () {
+        var checked = $(this).attr('checked');
+        $('#btn-gonext')
+            .toggleClass("btn-primary", checked)
+            .toggleClass("btn-disabled", checked);
+        if (checked) $('#btn-gonext').removeAttr("disabled");
+        else $('#btn-gonext').attr("disabled", "disabled");
+
+    });
+</script>

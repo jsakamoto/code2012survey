@@ -22,7 +22,7 @@ namespace Code2012Survey
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
+                url: "{action}/{id}",
                 defaults: new { controller = "Survey", action = "Index", id = UrlParameter.Optional }
             );
         }

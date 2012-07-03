@@ -1,5 +1,34 @@
-﻿@{
+﻿@model Code2012Survey.Models.SurveyReply
+@using Code2012Survey
+@using Code2012Survey.Models
+@using Code2012Survey.Properties
+@{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+@using(Html.BeginForm("Confirm","Survey")){
+
+    <h2>Q1. @Resources.CaptionQ1</h2>
+
+    <div>@Html.CheckBoxFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
+    <div>@Html.CheckBoxFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
+    <div>@Html.CheckBoxFor(m => m.Choice3OfQ1) @Html.LabelFor(m => m.Choice3OfQ1)</div>
+    <div>@Html.CheckBoxFor(m => m.Choice4OfQ1) @Html.LabelFor(m => m.Choice4OfQ1)</div>
+    <div>@Html.CheckBoxFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
+    <div>@Html.CheckBoxFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
+
+    <h2>Q2. @Resources.CaptionQ2</h2>
+
+    <div>@Html.TextBoxFor(m => m.CodingForYears) @Resources.UnitOfYears</div>
+
+    <h2>Q3. @Resources.CaptionQ3</h2>
+    <div>@Html.TextBoxFor(m => m.Address)</div>
+    
+    <h2>Q4. @Resources.CaptionQ4</h2>
+    <div>@Html.TextAreaFor(m => m.Comment)</div>
+
+    <div>
+        <input type="submit" name="gonext" value="次へ" class="btn btn-primary btn-large"/>
+    </div>
+
+}
