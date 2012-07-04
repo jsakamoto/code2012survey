@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2AF00A
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code2012Survey.ja", "Code2012Survey.ja\Code2012Survey.ja.csproj", "{C910DBFA-2328-428E-9236-38D7C82152F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{2081EA8C-D566-49FF-9DB8-9352E252F9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2081EA8C-D566-49FF-9DB8-9352E252F9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2081EA8C-D566-49FF-9DB8-9352E252F9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C910DBFA-2328-428E-9236-38D7C82152F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C910DBFA-2328-428E-9236-38D7C82152F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C910DBFA-2328-428E-9236-38D7C82152F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C910DBFA-2328-428E-9236-38D7C82152F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
