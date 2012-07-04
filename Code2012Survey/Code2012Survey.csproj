@@ -150,6 +150,7 @@
     <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <None Include="_bin_deployableAssemblies\ja\Code2012Survey.resources.dll" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <None Include="Scripts\jquery-1.7.2.intellisense.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
