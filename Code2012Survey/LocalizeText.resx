@@ -117,7 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CaptionQ1" xml:space="preserve">
+    <value>Why do you write code?</value>
+  </data>
+  <data name="CaptionQ2" xml:space="preserve">
+    <value>How long years do you write code?</value>
+  </data>
+  <data name="CaptionQ3" xml:space="preserve">
+    <value>Where do you live in, or come from? (Country name)</value>
+  </data>
+  <data name="CaptionQ4" xml:space="preserve">
+    <value>Please tell us to your passion for writing code.</value>
+  </data>
+  <data name="Choice1OfQ1" xml:space="preserve">
+    <value>Enjoy the ability to create something.</value>
+  </data>
+  <data name="Choice2OfQ1" xml:space="preserve">
+    <value>Instant feedback.</value>
+  </data>
+  <data name="Choice3OfQ1" xml:space="preserve">
+    <value>Just love to solve puzzles or various problems.</value>
+  </data>
+  <data name="Choice4OfQ1" xml:space="preserve">
+    <value>Because they do not like people.</value>
+  </data>
+  <data name="Choice5OfQ1" xml:space="preserve">
+    <value>Fill a need.</value>
+  </data>
+  <data name="Choice6OfQ1" xml:space="preserve">
+    <value>To make money.</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="GoNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
   <data name="SiteTitle" xml:space="preserve">
     <value>Code2012 Survey</value>
+  </data>
+  <data name="UnitOfYears" xml:space="preserve">
+    <value>Years</value>
   </data>
 </root>

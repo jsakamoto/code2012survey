@@ -61,11 +61,137 @@ namespace Code2012Survey {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Why do you write code?.
+        /// </summary>
+        public static string CaptionQ1 {
+            get {
+                return ResourceManager.GetString("CaptionQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How long years do you write code?.
+        /// </summary>
+        public static string CaptionQ2 {
+            get {
+                return ResourceManager.GetString("CaptionQ2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where do you live in, or come from? (Country name).
+        /// </summary>
+        public static string CaptionQ3 {
+            get {
+                return ResourceManager.GetString("CaptionQ3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please tell us to your passion for writing code..
+        /// </summary>
+        public static string CaptionQ4 {
+            get {
+                return ResourceManager.GetString("CaptionQ4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enjoy the ability to create something..
+        /// </summary>
+        public static string Choice1OfQ1 {
+            get {
+                return ResourceManager.GetString("Choice1OfQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Instant feedback..
+        /// </summary>
+        public static string Choice2OfQ1 {
+            get {
+                return ResourceManager.GetString("Choice2OfQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Just love to solve puzzles or various problems..
+        /// </summary>
+        public static string Choice3OfQ1 {
+            get {
+                return ResourceManager.GetString("Choice3OfQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Because they do not like people..
+        /// </summary>
+        public static string Choice4OfQ1 {
+            get {
+                return ResourceManager.GetString("Choice4OfQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fill a need..
+        /// </summary>
+        public static string Choice5OfQ1 {
+            get {
+                return ResourceManager.GetString("Choice5OfQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To make money..
+        /// </summary>
+        public static string Choice6OfQ1 {
+            get {
+                return ResourceManager.GetString("Choice6OfQ1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Back.
+        /// </summary>
+        public static string GoBack {
+            get {
+                return ResourceManager.GetString("GoBack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Next.
+        /// </summary>
+        public static string GoNext {
+            get {
+                return ResourceManager.GetString("GoNext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Post.
+        /// </summary>
+        public static string Post {
+            get {
+                return ResourceManager.GetString("Post", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Code2012 Survey.
         /// </summary>
         public static string SiteTitle {
             get {
                 return ResourceManager.GetString("SiteTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Years.
+        /// </summary>
+        public static string UnitOfYears {
+            get {
+                return ResourceManager.GetString("UnitOfYears", resourceCulture);
             }
         }
     }

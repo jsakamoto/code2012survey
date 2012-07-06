@@ -8,7 +8,7 @@
 
 @using(Html.BeginForm("Confirm","Survey")){
 
-    <h2>Q1. @Resources.CaptionQ1</h2>
+    <h2>Q1. @LocalizeText.CaptionQ1</h2>
 
     <div>@Html.CheckBoxFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
     <div>@Html.CheckBoxFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
@@ -17,18 +17,18 @@
     <div>@Html.CheckBoxFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
     <div>@Html.CheckBoxFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
 
-    <h2>Q2. @Resources.CaptionQ2</h2>
+    <h2>Q2. @LocalizeText.CaptionQ2</h2>
 
-    <div>@Html.TextBoxFor(m => m.CodingForYears) @Resources.UnitOfYears</div>
+    <div>@Html.TextBoxFor(m => m.CodingForYears) @LocalizeText.UnitOfYears</div>
 
-    <h2>Q3. @Resources.CaptionQ3</h2>
+    <h2>Q3. @LocalizeText.CaptionQ3</h2>
     <div>@Html.TextBoxFor(m => m.Address)</div>
     
-    <h2>Q4. @Resources.CaptionQ4</h2>
+    <h2>Q4. @LocalizeText.CaptionQ4</h2>
     <div>@Html.TextAreaFor(m => m.Comment)</div>
 
     <div>
-        <input type="submit" name="gonext" value="次へ" class="btn btn-primary btn-large"/>
+        <input type="submit" name="gonext" value="@LocalizeText.GoNext" class="btn btn-primary btn-large"/>
     </div>
 
 }

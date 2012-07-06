@@ -51,7 +51,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)ja\*.dll" "$(SolutionDir)Code2012Survey\_bin_deployableAssemblies\ja"
+    <PostBuildEvent>if not exist "$(SolutionDir)Code2012Survey\bin\ja" md "$(SolutionDir)Code2012Survey\bin\ja"
+copy "$(TargetDir)ja\*.dll" "$(SolutionDir)Code2012Survey\_bin_deployableAssemblies\ja"
+copy "$(TargetDir)ja\*.dll" "$(SolutionDir)Code2012Survey\bin\ja"
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

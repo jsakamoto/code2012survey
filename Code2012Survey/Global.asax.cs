@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Globalization;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-//using Code2012Survey.LangPack;
 
 namespace Code2012Survey
 {
@@ -24,9 +17,6 @@ namespace Code2012Survey
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            //Resource1.Culture = CultureInfo.GetCultureInfo("ja-jp");
-            //Localize.Culture = CultureInfo.GetCultureInfo("ja-jp");
         }
     }
 }

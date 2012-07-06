@@ -117,7 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CaptionQ1" xml:space="preserve">
+    <value>何故あなたはコードを書くのでしょうか?</value>
+  </data>
+  <data name="CaptionQ2" xml:space="preserve">
+    <value>あなたの"コード歴" を教えてください。</value>
+  </data>
+  <data name="CaptionQ3" xml:space="preserve">
+    <value>差し支えなければ、あなたの活動拠点の都道府県名、あるいは、国名を教えてください。</value>
+  </data>
+  <data name="CaptionQ4" xml:space="preserve">
+    <value>コードに対する想いなど、ご自由に一言お願いします。</value>
+  </data>
+  <data name="Choice1OfQ1" xml:space="preserve">
+    <value>創造する楽しみ・喜びのために。</value>
+  </data>
+  <data name="Choice2OfQ1" xml:space="preserve">
+    <value>書いた結果がすぐに動き出すのがおもしろい。</value>
+  </data>
+  <data name="Choice3OfQ1" xml:space="preserve">
+    <value>パズルを解くような楽しみ、問題を解く喜びがあるから。</value>
+  </data>
+  <data name="Choice4OfQ1" xml:space="preserve">
+    <value>人間相手が苦手なので(!?)</value>
+  </data>
+  <data name="Choice5OfQ1" xml:space="preserve">
+    <value>必要に迫られて。</value>
+  </data>
+  <data name="Choice6OfQ1" xml:space="preserve">
+    <value>稼ぐために。</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="GoNext" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="Post" xml:space="preserve">
+    <value>回答を登録</value>
+  </data>
   <data name="SiteTitle" xml:space="preserve">
     <value>Code2012 アンケート</value>
+  </data>
+  <data name="UnitOfYears" xml:space="preserve">
+    <value>年</value>
   </data>
 </root>
