@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Web.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -32,9 +33,11 @@ namespace Code2012Survey.Models
         public int? CodingForYears { get; set; }
 
         // replay of Q3. "Where do you live ine? or come from?"
+        [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string Address { get; set; }
 
         // replay of Q4. "Please comment here."
+        [DisplayFormat(ConvertEmptyStringToNull = false)]
         public string Comment { get; set; }
     }
 }
