@@ -6,28 +6,30 @@
     ViewBag.Title = "Index";
 }
 
-@using(Html.BeginForm("Confirm","Survey")){
+@using (Html.BeginForm("Confirm", "Survey", FormMethod.Post, new { @class = "form-vertical" }))
+{
 
     <h2>Q1. @LocalizeText.CaptionQ1</h2>
 
-    <div>@Html.CheckBoxFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
-    <div>@Html.CheckBoxFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
-    <div>@Html.CheckBoxFor(m => m.Choice3OfQ1) @Html.LabelFor(m => m.Choice3OfQ1)</div>
-    <div>@Html.CheckBoxFor(m => m.Choice4OfQ1) @Html.LabelFor(m => m.Choice4OfQ1)</div>
-    <div>@Html.CheckBoxFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
-    <div>@Html.CheckBoxFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
+    
+    <div class="checkbox">@Html.CheckBoxFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
+    <div class="checkbox">@Html.CheckBoxFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
+    <div class="checkbox">@Html.CheckBoxFor(m => m.Choice3OfQ1) @Html.LabelFor(m => m.Choice3OfQ1)</div>
+    <div class="checkbox">@Html.CheckBoxFor(m => m.Choice4OfQ1) @Html.LabelFor(m => m.Choice4OfQ1)</div>
+    <div class="checkbox">@Html.CheckBoxFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
+    <div class="checkbox">@Html.CheckBoxFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
 
     <h2>Q2. @LocalizeText.CaptionQ2</h2>
 
-    <div>@Html.TextBoxFor(m => m.CodingForYears) @LocalizeText.UnitOfYears</div>
+    <div>@Html.TextBoxFor(m => m.CodingForYears, new {@class="input-small" }) @LocalizeText.UnitOfYears</div>
 
     <h2>Q3. @LocalizeText.CaptionQ3</h2>
     <div>@Html.TextBoxFor(m => m.Address)</div>
     
     <h2>Q4. @LocalizeText.CaptionQ4</h2>
-    <div>@Html.TextAreaFor(m => m.Comment)</div>
+    <div>@Html.TextAreaFor(m => m.Comment, new {@class = "input-xxlarge"})</div>
 
-    <div>
+    <div class="form-actions">
         <input type="submit" name="gonext" value="@LocalizeText.GoNext" class="btn btn-primary btn-large"/>
     </div>
 

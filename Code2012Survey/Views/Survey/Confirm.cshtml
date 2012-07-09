@@ -8,7 +8,8 @@
 
 <p>@Resources.ConfirmPrompt</p>
 
-@using(Html.BeginForm()){
+@using (Html.BeginForm("Confirm", "Survey", FormMethod.Post, new { @class = "form-vertical" }))
+{
     @Html.HiddenFor(m => m.Choice1OfQ1)
     @Html.HiddenFor(m => m.Choice2OfQ1)
     @Html.HiddenFor(m => m.Choice3OfQ1)
@@ -21,12 +22,12 @@
 
     <h2>Q1. @LocalizeText.CaptionQ1</h2>
 
-    <div>@Html.DisplayFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
-    <div>@Html.DisplayFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
-    <div>@Html.DisplayFor(m => m.Choice3OfQ1) @Html.LabelFor(m => m.Choice3OfQ1)</div>
-    <div>@Html.DisplayFor(m => m.Choice4OfQ1) @Html.LabelFor(m => m.Choice4OfQ1)</div>
-    <div>@Html.DisplayFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
-    <div>@Html.DisplayFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
+    <div class="checkbox">@Html.DisplayFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
+    <div class="checkbox">@Html.DisplayFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
+    <div class="checkbox">@Html.DisplayFor(m => m.Choice3OfQ1) @Html.LabelFor(m => m.Choice3OfQ1)</div>
+    <div class="checkbox">@Html.DisplayFor(m => m.Choice4OfQ1) @Html.LabelFor(m => m.Choice4OfQ1)</div>
+    <div class="checkbox">@Html.DisplayFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
+    <div class="checkbox">@Html.DisplayFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
 
     <h2>Q2. @LocalizeText.CaptionQ2</h2>
 
@@ -38,21 +39,20 @@
     <h2>Q4. @LocalizeText.CaptionQ4</h2>
     <div>@Html.DisplayFor(m => m.Comment)</div>
 
-    <div>
+    <div class="alert alert-info">
+        <p>
         @Resources.Notice
+        </p>
+        <div class="checkbox">
+            <input type="checkbox" name="cb-accept" id="cb-accept" value="On" /><label for="cb-accept">@Resources.AcceptNotice</label>
+        </div>
     </div>
     
-    <div>
-        <input type="checkbox" name="cb-accept" id="cb-accept" value="On" /><label for="cb-accept">@Resources.AcceptNotice</label>
-    </div>
-    
-    <div>
+    <div class="form-actions">
         <input type="submit" name="goback" id="btn-goback" value="@LocalizeText.GoBack" class="btn btn-large"/>
         <input type="submit" name="gonext" id="btn-gonext" value="@LocalizeText.Post" class="btn btn-disabled btn-large" disabled="disabled"/>
     </div>
 }
-
-
 
 <script type="text/javascript">
     $('#btn-goback').click(function () {
