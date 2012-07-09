@@ -79,7 +79,7 @@ namespace Code2012Survey {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to How long years do you write code?.
+        ///   Looks up a localized string similar to How many years do you write code?.
         /// </summary>
         public static string CaptionQ2 {
             get {
