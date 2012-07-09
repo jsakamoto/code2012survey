@@ -61,6 +61,15 @@ namespace Code2012Survey {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to I accept..
+        /// </summary>
+        public static string AcceptNotice {
+            get {
+                return ResourceManager.GetString("AcceptNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Why do you write code?.
         /// </summary>
         public static string CaptionQ1 {
@@ -151,6 +160,24 @@ namespace Code2012Survey {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Your replay posted complete..
+        /// </summary>
+        public static string Complete {
+            get {
+                return ResourceManager.GetString("Complete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Is taht OK?.
+        /// </summary>
+        public static string ConfirmPrompt {
+            get {
+                return ResourceManager.GetString("ConfirmPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back.
         /// </summary>
         public static string GoBack {
@@ -169,6 +196,24 @@ namespace Code2012Survey {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &quot;Code2012&quot; Event Site.
+        /// </summary>
+        public static string JumpToCode201OfficialSite {
+            get {
+                return ResourceManager.GetString("JumpToCode201OfficialSite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Everyone can get or view the post data which you send from this survey via public API on the Internet..
+        /// </summary>
+        public static string Notice {
+            get {
+                return ResourceManager.GetString("Notice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Post.
         /// </summary>
         public static string Post {
@@ -183,6 +228,15 @@ namespace Code2012Survey {
         public static string SiteTitle {
             get {
                 return ResourceManager.GetString("SiteTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thank you for your replay!.
+        /// </summary>
+        public static string Thanks {
+            get {
+                return ResourceManager.GetString("Thanks", resourceCulture);
             }
         }
         

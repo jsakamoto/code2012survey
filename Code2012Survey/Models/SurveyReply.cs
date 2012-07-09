@@ -4,7 +4,6 @@ using System.Web.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-using Code2012Survey.Properties;
 
 namespace Code2012Survey.Models
 {

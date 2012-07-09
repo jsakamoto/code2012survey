@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AcceptNotice" xml:space="preserve">
+    <value>I accept.</value>
+  </data>
   <data name="CaptionQ1" xml:space="preserve">
     <value>Why do you write code?</value>
   </data>
@@ -147,17 +150,32 @@
   <data name="Choice6OfQ1" xml:space="preserve">
     <value>To make money.</value>
   </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Your replay posted complete.</value>
+  </data>
+  <data name="ConfirmPrompt" xml:space="preserve">
+    <value>Is taht OK?</value>
+  </data>
   <data name="GoBack" xml:space="preserve">
     <value>Back</value>
   </data>
   <data name="GoNext" xml:space="preserve">
     <value>Next</value>
   </data>
+  <data name="JumpToCode201OfficialSite" xml:space="preserve">
+    <value>"Code2012" Event Site</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Everyone can get or view the post data which you send from this survey via public API on the Internet.</value>
+  </data>
   <data name="Post" xml:space="preserve">
     <value>Post</value>
   </data>
   <data name="SiteTitle" xml:space="preserve">
     <value>Code2012 Survey</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Thank you for your replay!</value>
   </data>
   <data name="UnitOfYears" xml:space="preserve">
     <value>Years</value>

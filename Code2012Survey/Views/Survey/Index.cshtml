@@ -1,7 +1,6 @@
 ﻿@model Code2012Survey.Models.SurveyReply
 @using Code2012Survey
 @using Code2012Survey.Models
-@using Code2012Survey.Properties
 @{
     ViewBag.Title = "Index";
 }
@@ -9,7 +8,7 @@
 @using (Html.BeginForm("Confirm", "Survey", FormMethod.Post, new { @class = "form-vertical" }))
 {
 
-    <h2>Q1. @LocalizeText.CaptionQ1</h2>
+    <h3>Q1. @LocalizeText.CaptionQ1</h3>
 
     
     <div class="checkbox">@Html.CheckBoxFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
@@ -19,14 +18,14 @@
     <div class="checkbox">@Html.CheckBoxFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
     <div class="checkbox">@Html.CheckBoxFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
 
-    <h2>Q2. @LocalizeText.CaptionQ2</h2>
+    <h3>Q2. @LocalizeText.CaptionQ2</h3>
 
     <div>@Html.TextBoxFor(m => m.CodingForYears, new {@class="input-small" }) @LocalizeText.UnitOfYears</div>
 
-    <h2>Q3. @LocalizeText.CaptionQ3</h2>
+    <h3>Q3. @LocalizeText.CaptionQ3</h3>
     <div>@Html.TextBoxFor(m => m.Address)</div>
     
-    <h2>Q4. @LocalizeText.CaptionQ4</h2>
+    <h3>Q4. @LocalizeText.CaptionQ4</h3>
     <div>@Html.TextAreaFor(m => m.Comment, new {@class = "input-xxlarge"})</div>
 
     <div class="form-actions">

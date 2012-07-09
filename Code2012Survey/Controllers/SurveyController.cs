@@ -62,5 +62,11 @@ namespace Code2012Survey.Controllers
 
             return View();
         }
+
+        [HttpGet]
+        public ActionResult Commit()
+        {
+            return View();
+        }
     }
 }

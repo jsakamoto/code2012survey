@@ -1,12 +1,13 @@
 ﻿@model Code2012Survey.Models.SurveyReply
 @using Code2012Survey
 @using Code2012Survey.Models
-@using Code2012Survey.Properties
 @{
     ViewBag.Title = "Confirm";
 }
 
-<p>@Resources.ConfirmPrompt</p>
+<div class="alert">
+<p>@LocalizeText.ConfirmPrompt</p>
+</div>
 
 @using (Html.BeginForm("Confirm", "Survey", FormMethod.Post, new { @class = "form-vertical" }))
 {
@@ -20,7 +21,7 @@
     @Html.HiddenFor(m => m.Address)
     @Html.HiddenFor(m => m.Comment)
 
-    <h2>Q1. @LocalizeText.CaptionQ1</h2>
+    <h3>Q1. @LocalizeText.CaptionQ1</h3>
 
     <div class="checkbox">@Html.DisplayFor(m => m.Choice1OfQ1) @Html.LabelFor(m => m.Choice1OfQ1)</div>
     <div class="checkbox">@Html.DisplayFor(m => m.Choice2OfQ1) @Html.LabelFor(m => m.Choice2OfQ1)</div>
@@ -29,22 +30,22 @@
     <div class="checkbox">@Html.DisplayFor(m => m.Choice5OfQ1) @Html.LabelFor(m => m.Choice5OfQ1)</div>
     <div class="checkbox">@Html.DisplayFor(m => m.Choice6OfQ1) @Html.LabelFor(m => m.Choice6OfQ1)</div>
 
-    <h2>Q2. @LocalizeText.CaptionQ2</h2>
+    <h3>Q2. @LocalizeText.CaptionQ2</h3>
 
     <div>@Html.DisplayFor(m => m.CodingForYears) @LocalizeText.UnitOfYears</div>
 
-    <h2>Q3. @LocalizeText.CaptionQ3</h2>
+    <h3>Q3. @LocalizeText.CaptionQ3</h3>
     <div>@Html.DisplayFor(m => m.Address)</div>
     
-    <h2>Q4. @LocalizeText.CaptionQ4</h2>
+    <h3>Q4. @LocalizeText.CaptionQ4</h3>
     <div>@Html.DisplayFor(m => m.Comment)</div>
 
     <div class="alert alert-info">
         <p>
-        @Resources.Notice
+        @LocalizeText.Notice
         </p>
         <div class="checkbox">
-            <input type="checkbox" name="cb-accept" id="cb-accept" value="On" /><label for="cb-accept">@Resources.AcceptNotice</label>
+            <input type="checkbox" name="cb-accept" id="cb-accept" value="On" /><label for="cb-accept">@LocalizeText.AcceptNotice</label>
         </div>
     </div>
     

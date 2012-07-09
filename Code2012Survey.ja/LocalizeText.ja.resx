@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AcceptNotice" xml:space="preserve">
+    <value>上記について理解しました。</value>
+  </data>
   <data name="CaptionQ1" xml:space="preserve">
     <value>何故あなたはコードを書くのでしょうか?</value>
   </data>
@@ -147,17 +150,32 @@
   <data name="Choice6OfQ1" xml:space="preserve">
     <value>稼ぐために。</value>
   </data>
+  <data name="Complete" xml:space="preserve">
+    <value>回答を登録しました。</value>
+  </data>
+  <data name="ConfirmPrompt" xml:space="preserve">
+    <value>下記の内容で回答を登録します。よろしいですか?</value>
+  </data>
   <data name="GoBack" xml:space="preserve">
     <value>戻る</value>
   </data>
   <data name="GoNext" xml:space="preserve">
     <value>次へ</value>
   </data>
+  <data name="JumpToCode201OfficialSite" xml:space="preserve">
+    <value>Code2012 イベントページへ</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>登録頂いた内容は、インターネット上から自由に参照可能となります。またCode2012 イベント当日にも、回答内容の発表があります。</value>
+  </data>
   <data name="Post" xml:space="preserve">
     <value>回答を登録</value>
   </data>
   <data name="SiteTitle" xml:space="preserve">
     <value>Code2012 アンケート</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>アンケートにご協力、ありがとうございました。</value>
   </data>
   <data name="UnitOfYears" xml:space="preserve">
     <value>年</value>
