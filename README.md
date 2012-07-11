@@ -1,7 +1,7 @@
 ‚±‚Ìƒ\[ƒXƒR[ƒh‚Í‰½‚©?
 ====================
 
-‚±‚Ìƒ\[ƒXƒR[ƒh‚ÍACode2012 ƒCƒxƒ“ƒg—p‚ÉŠé‰æ‚³‚ê‚½Au‰½ŒÌ‚ ‚È‚½‚ÍƒR[ƒh‚ğ‘‚­‚Ì‚Å‚µ‚å‚¤‚©?vƒAƒ“ƒP[ƒg‚ÌAƒtƒƒ“ƒgƒGƒ“ƒh‘¤ UI ƒAƒvƒŠ‚Å‚·B
+‚±‚Ìƒ\[ƒXƒR[ƒh‚ÍA[Code2012 ƒCƒxƒ“ƒg](http://codejapan.jp) —p‚ÉŠé‰æ‚³‚ê‚½Au‰½ŒÌ‚ ‚È‚½‚ÍƒR[ƒh‚ğ‘‚­‚Ì‚Å‚µ‚å‚¤‚©?vƒAƒ“ƒP[ƒg‚ÌAƒtƒƒ“ƒgƒGƒ“ƒh‘¤ UI ƒAƒvƒŠ‚Å‚·B
 
 À‘•ƒeƒNƒmƒƒW
 ------------
@@ -13,23 +13,26 @@ Visual Studio ‚Í Express Edition ‚Å‚à‚±‚Ìƒ\[ƒX‚©‚çƒrƒ‹ƒh‚Å‚«‚é‚Ì‚©‚Í–¢Šm”F‚Å‚·
 
 ƒoƒbƒNƒGƒ“ƒh‘¤ API
 ----------------
-‚±‚ÌƒAƒvƒŠ‚©‚çARuby on Rails ‚Åì¬‚³‚êAHeroku ‚É”z’u‚³‚ê‚Ä‚¢‚éƒoƒbƒNƒGƒ“ƒh‘¤ API ‚ÖA“ü—Í‚³‚ê‚½ƒAƒ“ƒP[ƒg‰ñ“š“à—e‚ğ POST ‚µ‚Ä‚¢‚Ü‚·B
+‚±‚ÌƒAƒvƒŠ‚©‚çARuby on Rails ‚Åì¬EHeroku ‚É”z’u‚³‚ê‚Ä‚¢‚éƒoƒbƒNƒGƒ“ƒh‘¤ API ‚ÖA“ü—Í‚³‚ê‚½ƒAƒ“ƒP[ƒg‰ñ“š“à—e‚ğ POST ‚µ‚Ä‚¢‚Ü‚·B
 
 ƒoƒbƒNƒGƒ“ƒh‘¤ API ‚Ì URL ‚Í‚±‚¿‚çB
+
 http://code-survey.herokuapp.com/
 
 —ûK—p‚Ì "ƒXƒe[ƒWƒ“ƒO" ŠÂ‹«‚à‚ ‚è‚Ü‚·B
+
 http://stage-code-survey.herokuapp.com/
 
 ”z’uæ
 -----
 ‚±‚Ìƒtƒƒ“ƒgƒGƒ“ƒh‘¤ UI ƒAƒvƒŠ‚ğAWindows Azure Website ‚Æ AppHarbor ‚Ì 2‚Â‚Ì PaaS ‚Ö”z’u‚µ‚Ä‚ ‚è‚Ü‚·B
 
-http://code2012survey.azurewebsites.net/
-http://code2012survey.apphb.com
+- http://code2012survey.azurewebsites.net/
+- http://code2012survey.apphb.com
 
 ‚»‚Ì‚Ù‚©
 -------
 ‚±‚ÌƒAƒ“ƒP[ƒg Web ƒVƒXƒeƒ€‚É‚Â‚¢‚ÄAƒuƒƒO‹L–‚Å‚àà–¾‚µ‚Ä‚¢‚Ü‚·B
+
 http://devadjust.exblog.jp/16304882/
 
