@@ -232,6 +232,15 @@ namespace Code2012Survey {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All input fields is optional..
+        /// </summary>
+        public static string Prompt {
+            get {
+                return ResourceManager.GetString("Prompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Code2012 Survey.
         /// </summary>
         public static string SiteTitle {

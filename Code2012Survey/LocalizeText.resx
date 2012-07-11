@@ -174,6 +174,9 @@
   <data name="Post" xml:space="preserve">
     <value>Post</value>
   </data>
+  <data name="Prompt" xml:space="preserve">
+    <value>All input fields is optional.</value>
+  </data>
   <data name="SiteTitle" xml:space="preserve">
     <value>Code2012 Survey</value>
   </data>
