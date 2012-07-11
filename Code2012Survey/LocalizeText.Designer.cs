@@ -61,6 +61,15 @@ namespace Code2012Survey {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About this survey (Japanese Blog).
+        /// </summary>
+        public static string AboutThisSurvey {
+            get {
+                return ResourceManager.GetString("AboutThisSurvey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to I accept..
         /// </summary>
         public static string AcceptNotice {
