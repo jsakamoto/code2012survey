@@ -59,3 +59,13 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+/*-----------------------------------------------------------*/
+.main.container
+{
+    margin-bottom:3em;
+}
+.navbar-fixed-bottom .navbar-inner .container
+{
+    padding:1em;
+}
